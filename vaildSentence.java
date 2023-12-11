@@ -50,7 +50,7 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
 		}
 	}
 	
@@ -61,7 +61,7 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
 		}
 	}
 	
@@ -72,7 +72,7 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
 		}
 	}
 	
@@ -83,7 +83,7 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
 		}
 	}
 	
@@ -94,7 +94,7 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
 		}
 	}
 	
@@ -106,7 +106,7 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
 		}
 	}
 	
@@ -118,7 +118,7 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
 		}
 	}
 	
@@ -130,7 +130,7 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
 		}
 	}
 	
@@ -142,7 +142,7 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
 		}
 	}
 	
@@ -154,7 +154,18 @@ public class vaildSentence {
 			System.out.println("Valid\n");
 		}
 		else {
-			System.out.println("InValid\n");
+			System.out.println("Invalid\n");
+		}
+	}
+	
+		public static void testCase11() {
+		System.out.println("Test Case 11:" );
+		System.out.println("The sentence: There is no punctuation in this sentence");
+		if(validSentence("There is no punctuation in this sentence")) {
+			System.out.println("Valid\n");
+		}
+		else {
+			System.out.println("Invalid\n");
 		}
 	}
 	public static void main(String[] args) {
@@ -170,6 +181,7 @@ public class vaildSentence {
 		testCase8();
 		testCase9();
 		testCase10();
+		testCase11();
 		
 	}
 
